@@ -16,19 +16,26 @@
   border-bottom: 1px solid Black;
 }
 
+.header span {
+  padding: 10px;
+
+}
+
 /* Logo Box */
 
 .logo {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  flex-grow: 1;
   padding-left: 30px;
   color: MediumAquaMarine;
 }
 
-/* Navbar */
+/* Nav-bar */
 
-.header span {
-  padding: 5px;
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
 }

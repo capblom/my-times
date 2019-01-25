@@ -65,6 +65,7 @@
   display: flex;
   flex-flow: wrap column;
   justify-content: flex-start;
+  align-items: center;
   /* border: 1px solid Gray; */
   flex: 1 1 240px;
 }
@@ -117,9 +118,34 @@
 }
 
 #orca {
-  width: 310px;
+  width: 300px;
 }
 
 #burger {
-  width: 310px;
+  width: 300px;
+}
+
+#bites {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.column-right h3 {
+  font-size: 16px;
+  width: 200px;
+  font-weight: bold;
+  background-color: White;
+  text-align: center;
+}
+
+.column-right span {
+  width: 200px;
+  background-color: WhiteSmoke;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: DimGray;
+  border-bottom: 1px solid Black;
 }
